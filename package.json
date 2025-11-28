@@ -12,12 +12,14 @@
   "dependencies": {
     "@netlify/vite-plugin": "^2.7.12",
     "@picocss/pico": "^2.1.1",
+    "markdown-it": "^14.1.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-router": "^7.9.5"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
+    "@types/markdown-it": "^14.1.2",
     "@types/node": "^24.10.0",
     "@types/react": "^19.2.2",
     "@types/react-dom": "^19.2.2",
