@@ -1,8 +1,21 @@
+$mobile-breakpoint: 600px;
+
 .gamelisting {
   margin-bottom: 1rem;
 }
 
-.gamelistingimage {
-  justify-self: right;
-  align-self: auto;
+// On mobile, align images to center (not that it's gonna matter)
+@media (max-width: $mobile-breakpoint) {
+  .gamelistingimage {
+    justify-self: center;
+    align-self: auto;
+  }
+}
+
+// Above mobile sizes, align right where the grid will render horizontally
+@media (min-width: $mobile-breakpoint) {
+  .gamelistingimage {
+    justify-self: right;
+    align-self: auto;
+  }
 }
