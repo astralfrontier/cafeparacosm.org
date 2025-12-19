@@ -18,12 +18,15 @@
       {
         packages.default = pkgs.buildNpmPackage {
           name = packagename;
-          nativeBuildInputs = builddeps;
+          buildInputs = builddeps;
           src = self;
-          npmDepsHash = "sha256-8NpcCkYqRHD1wrkVu9uS6DesWJj9LBmfy8DO84LvdbE=";
+          npmDeps = pkgs.importNpmLock {
+            npmRoot = ./.;
+          };
+          npmConfigHook = pkgs.importNpmLock.npmConfigHook;
           installPhase = ''
             mkdir $out
-            cp -r out/. $out/
+            cp -r dist/. $out/
           '';
         };
         devShell = pkgs.mkShell {
