@@ -1,4 +1,7 @@
 import markdownit from "markdown-it";
+
+import styles from "./GameListing.module.scss";
+
 const md = markdownit();
 
 interface GameFile {
@@ -91,9 +94,9 @@ function GameEntry(props: GameEntryProps) {
   const { entry } = props;
 
   return (
-    <>
+    <div className={styles.gamelisting}>
       <div className="grid">
-        <div>
+        <div className={styles.gamelistingimage}>
           <img src={`/${entry.img}`} />
         </div>
         <div>
@@ -108,7 +111,7 @@ function GameEntry(props: GameEntryProps) {
           </ul>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
