@@ -1,0 +1,12 @@
+---
+import Top from "@/layouts/Top.astro"
+import Game from "@/components/Game.astro"
+
+import { getCollection } from "astro:content";
+
+const games = await getCollection("games");
+---
+<Top title="Home">
+	<h1>Cafe Paracosm</h1>
+  {games.map(game => <Game id={game.id} />)}
+</Top>

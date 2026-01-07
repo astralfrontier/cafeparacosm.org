@@ -26,7 +26,7 @@
           npmConfigHook = pkgs.importNpmLock.npmConfigHook;
           installPhase = ''
             mkdir $out
-            cp -r dist/. $out/
+            cp -r out/. $out/
           '';
         };
         devShell = pkgs.mkShell {
