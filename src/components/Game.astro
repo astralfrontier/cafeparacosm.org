@@ -1,0 +1,37 @@
+---
+interface Props {
+  id: string;
+}
+
+import { Image } from "astro:assets";
+import { getEntry, render } from 'astro:content';
+
+import styles from "./Game.module.scss";
+
+const { id } = Astro.props;
+const game = await getEntry("games", id);
+
+if (!game) {
+  throw new Error(`Unable to find game with ID ${id}`);
+}
+
+const { Content } = await render(game);
+---
+<div class={styles.gamelisting}>
+  <div class="grid">
+    <div class={styles.gamelistingimage}>
+      <Image src={game.data.image} alt={game.data.name} />
+    </div>
+    <div>
+      <h2>{game.data.name}</h2>
+      <Content />
+      <ul>
+        {game.data.files.map((file) => (
+          <li>
+            <a href={`/${game.id}/${file.path}`}>{file.name}</a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </div>
+</div>
