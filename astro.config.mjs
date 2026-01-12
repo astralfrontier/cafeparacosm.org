@@ -6,15 +6,14 @@ import playformCompress from '@playform/compress';
 import compressor from 'astro-compressor';
 import purgecss from 'astro-purgecss';
 
+import mdx from '@astrojs/mdx';
+
+import react from '@astrojs/react';
+
 // https://astro.build/config
 export default defineConfig({
-  integrations: [
-    astroBrokenLinksChecker({
-      checkExternalLinks: false,
-      throwError: true
-    }),
-    purgecss(),
-    playformCompress(),
-    compressor()
-  ],
+  integrations: [astroBrokenLinksChecker({
+    checkExternalLinks: false,
+    throwError: true
+  }), purgecss(), playformCompress(), compressor(), mdx(), react()],
 });
