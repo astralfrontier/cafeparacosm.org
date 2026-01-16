@@ -1,0 +1,35 @@
+---
+import { Image } from "astro:assets";
+import { getCollection, getEntry, render } from "astro:content";
+
+import Top from "@/layouts/Top.astro"
+
+export async function getStaticPaths() {
+  const games = await getCollection("games");
+  return games.map(entry => ({
+    params: { game: entry.id }
+  }))
+}
+
+const { game } = Astro.params;
+const entry = await getEntry("games", game);
+if (!entry) {
+  throw new Error(`No game with ID ${game}`);
+}
+const { Content } = await render(entry);
+---
+<Top title={entry.data.name}>
+  <h1>{entry.data.name}</h1>
+  <Content />
+  <h2>Downloads</h2>
+  <ul>
+    {entry.data.files.map((file) => (
+      <li>
+        <a href={`/${entry.id}/${file.path}`} target="_blank">{file.name}</a>
+      </li>
+    ))}
+  </ul>
+  <p>
+    <Image src={entry.data.image} alt={entry.data.name} />
+  </p>
+</Top>

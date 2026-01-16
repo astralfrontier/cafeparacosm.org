@@ -23,7 +23,11 @@ const { Content } = await render(game);
       <Image src={game.data.image} alt={game.data.name} />
     </div>
     <div>
-      <h2>{game.data.name}</h2>
+      <h2>
+        <a href={`/games/${game.id}`}>
+          {game.data.name}
+        </a>
+      </h2>
       <Content />
       <ul>
         {game.data.files.map((file) => (

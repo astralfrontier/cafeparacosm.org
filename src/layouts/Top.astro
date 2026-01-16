@@ -1,17 +1,32 @@
 ---
+import SidebarLeft from "@/components/SidebarLeft.astro";
 import "./Top.scss";
+import styles from "./Top.module.scss";
+
+interface Props {
+  title: string;
+}
+
 const { title } = Astro.props;
 ---
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="favicon.ico" type="image/ico">
+    <link rel="icon" href="/favicon.ico" type="image/ico">
     <title>{title}</title>
   </head>
   <body>
-    <main class="container">
-      <slot />
+    <main class={`container ${styles.main}`}>
+      <div class={styles.sidebarleft}>
+        <SidebarLeft />
+      </div>
+      <div class={styles.content}>
+        <slot />
+      </div>
+      <div class={styles.sidebarright}>
+        sidebar
+      </div>
     </main>
   </body>
 </html>

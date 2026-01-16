@@ -1,0 +1,28 @@
+---
+import { getCollection } from "astro:content"
+import { sortBy, toLower } from "ramda";
+
+const sortByNameCaseInsensitive = sortBy((entry: any) => toLower(entry.data.name));
+
+const games = sortByNameCaseInsensitive(await getCollection("games"));
+---
+<aside>
+  <nav>
+    <ul>
+      <li><a href="/">Home</a></li>
+      {games.map(game => 
+        <li>
+          <a href={`/games/${game.id}`}>
+            {game.data.name}
+          </a>
+        </li>
+      )}
+    </ul>
+  </nav>
+</aside>
+<style lang="scss">
+  aside {
+    position: sticky;
+    top: 0;
+  }
+</style>

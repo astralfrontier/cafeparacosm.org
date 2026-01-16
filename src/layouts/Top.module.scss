@@ -1,0 +1,19 @@
+.main {
+  display: grid;
+  grid-template-columns: 12rem 1fr;
+  grid-template-areas:
+    "sidebarleft topcontent sidebarright";
+}
+
+.sidebarleft {
+  grid-area: sidebarleft;
+}
+
+.content {
+  grid-area: topcontent;
+}
+
+.sidebarright {
+  grid-area: sidebarright;
+  display: none;
+}
