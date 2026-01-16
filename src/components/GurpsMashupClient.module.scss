@@ -1,0 +1,20 @@
+.gmgrid {
+  display: grid;
+  grid-template-columns: 160px repeat(5, 300px);
+}
+
+.book {
+  justify-self: center;
+}
+
+.bookimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  height: 220px;
+}
+
+.booktext {
+  text-align: center;
+}

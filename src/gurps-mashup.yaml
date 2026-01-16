@@ -1,0 +1,973 @@
+- skip: true
+  id: 'AADA Road Atlas V1: The East Coast'
+  url: http://www.sjgames.com/gurps/books/AADATheEastCoast/
+- skip: true
+  id: 'AADA Road Atlas V2: The West Coast'
+  url: http://www.sjgames.com/gurps/books/AADATheWestCoast/
+- skip: true
+  id: 'AADA Road Atlas V3: The South'
+  url: http://www.sjgames.com/gurps/books/AADATheSouth/
+- skip: true
+  id: 'AADA Road Atlas V4: Australia'
+  url: http://www.sjgames.com/gurps/books/AADAAustralia/
+- skip: true
+  id: 'AADA Road Atlas V5: The Midwest'
+  url: http://www.sjgames.com/gurps/books/AADATheMidwest/
+- skip: true
+  id: 'AADA Road Atlas V6: The Free Oil States'
+  url: http://www.sjgames.com/gurps/books/AADATheFreeOilStates/
+- skip: true
+  id: 'AADA Road Atlas V7: Mountain West'
+  url: http://www.sjgames.com/gurps/books/AADAMountainWest/
+- id: 'Action 1: Heroes'
+  url: http://www.sjgames.com/gurps/books/action/action1/
+- skip: true
+  id: 'Action 2: Exploits'
+  url: http://www.sjgames.com/gurps/books/action/action2/
+- skip: true
+  id: 'Action 3: Furious Fists'
+  url: http://www.sjgames.com/gurps/books/action/action3/
+- skip: true
+  id: 'Action 4: Specialists'
+  url: http://www.sjgames.com/gurps/books/action/action4/
+- id: 'After the End 1: Wastelanders'
+  url: http://www.sjgames.com/gurps/books/aftertheend/aftertheend1/
+- skip: true
+  id: 'After the End 2: The New World'
+  url: http://www.sjgames.com/gurps/books/aftertheend/aftertheend2/
+- id: Age of Napoleon
+  url: http://www.sjgames.com/gurps/books/ageofnapoleon/
+- id: Aliens
+  url: http://www.sjgames.com/gurps/books/aliens/
+- id: 'Aliens: Sparrials'
+  url: http://www.sjgames.com/gurps/books/sparrials/
+- skip: true
+  id: All-Star Jam 2004
+  url: http://www.sjgames.com/gurps/books/allstarjam2004/
+- id: Alpha Centauri
+  url: http://www.sjgames.com/gurps/books/alphacentauri/
+- skip: true
+  id: Alphabet Arcane
+  url: http://www.sjgames.com/gurps/books/alphabetarcane/
+- id: Alternate Earths
+  url: http://www.sjgames.com/gurps/books/AltEarths/
+- skip: true
+  id: Alternate Earths 2
+  url: http://www.sjgames.com/gurps/books/altearths2/
+- id: Arabian Nights
+  url: http://www.sjgames.com/gurps/books/ArabianNights/
+- id: Atlantis
+  url: http://www.sjgames.com/gurps/books/atlantis/
+- id: Atomic Horror
+  url: http://www.sjgames.com/gurps/books/AtomicHorror/
+- id: Autoduel
+  url: http://www.sjgames.com/gurps/books/Autoduel/
+- skip: true
+  id: 'Autoduel: Car Warriors'
+  url: http://www.sjgames.com/gurps/books/CarWarriors/
+- id: Aztecs
+  url: http://www.sjgames.com/gurps/books/aztecs/
+- id: Banestorm
+  url: http://www.sjgames.com/gurps/books/banestorm/
+- id: 'Banestorm: Abydos'
+  url: http://www.sjgames.com/gurps/books/abydos/
+- skip: true
+  id: Bestiary
+  url: http://www.sjgames.com/gurps/books/Bestiary/
+- id: Big Lizzie
+  url: http://www.sjgames.com/gurps/books/biglizzie/
+- skip: true
+  id: 'Bili the Axe: Up Harzburk!'
+  url: http://www.sjgames.com/gurps/books/BiliTheAxe/
+- id: Bio-Tech
+  url: http://www.sjgames.com/gurps/books/Bio-Tech/
+- id: Black Ops
+  url: http://www.sjgames.com/gurps/books/BlackOps/
+- skip: true
+  id: 'Black Ops: A Minor Emergency'
+  url: http://www.sjgames.com/gurps/books/minoremergency/
+- skip: true
+  id: Blood Types
+  url: http://www.sjgames.com/gurps/books/Bloodtypes/
+- id: Blue Planet
+  url: http://www.sjgames.com/gurps/books/blueplanet/
+- id: Boardroom and Curia
+  url: http://www.sjgames.com/gurps/books/boardroomandcuria/
+- id: Bunnies & Burrows
+  url: http://www.sjgames.com/gurps/books/bunnies/
+- id: Cabal
+  url: http://www.sjgames.com/gurps/books/cabal/
+- id: Callahan's Crosstime Saloon
+  url: http://www.sjgames.com/gurps/books/callahan/
+- id: Camelot
+  url: http://www.sjgames.com/gurps/books/camelot/
+- id: Casey & Andy
+  url: http://www.sjgames.com/gurps/books/caseyandandy/
+- id: Castle Falkenstein
+  url: http://www.sjgames.com/gurps/books/castlefalkenstein/
+- skip: true
+  id: 'Castle Falkenstein: The Ottoman Empire'
+  url: http://www.sjgames.com/gurps/books/ottoman/
+- id: Celtic Myth
+  url: http://www.sjgames.com/gurps/books/Celtic/
+- skip: true
+  id: Chaos in Kansas
+  url: http://www.sjgames.com/gurps/books/ChaosKansas/
+- id: China
+  url: http://www.sjgames.com/gurps/books/china/
+- skip: true
+  id: City Stats
+  url: http://www.sjgames.com/gurps/books/citystats/
+- id: Cliffhangers
+  url: http://www.sjgames.com/gurps/books/Cliffhangers/
+- id: Conan
+  url: http://www.sjgames.com/gurps/books/conan/
+- skip: true
+  id: Conan and the Queen of the Black Coast
+  url: http://www.sjgames.com/gurps/books/ConanQueenBlackCoast/
+- skip: true
+  id: Conan Beyond Thunder River
+  url: http://www.sjgames.com/gurps/books/ConanBeyondThunderRiver/
+- skip: true
+  id: Conan the Wyrmslayer
+  url: http://www.sjgames.com/gurps/books/ConanWyrmslayer/
+- skip: true
+  id: 'Conan: Moon of Blood'
+  url: http://www.sjgames.com/gurps/books/ConanMoonBlood/
+- id: Conspiracy X
+  url: http://www.sjgames.com/gurps/books/conspiracyx/
+- id: Cops
+  url: http://www.sjgames.com/gurps/books/cops/
+- id: Covert Ops
+  url: http://www.sjgames.com/gurps/books/covertops/
+- id: Creatures of the Night
+  url: http://www.sjgames.com/gurps/books/CreaturesNight/
+- skip: true
+  id: Creatures of the Night, Volume 1
+  url: http://www.sjgames.com/gurps/books/creaturesofthenight/creaturesofthenight1/
+- skip: true
+  id: Creatures of the Night, Volume 2
+  url: http://www.sjgames.com/gurps/books/creaturesofthenight/creaturesofthenight2/
+- skip: true
+  id: Creatures of the Night, Volume 3
+  url: http://www.sjgames.com/gurps/books/creaturesofthenight/creaturesofthenight3/
+- skip: true
+  id: Creatures of the Night, Volume 4
+  url: http://www.sjgames.com/gurps/books/creaturesofthenight/creaturesofthenight4/
+- skip: true
+  id: Creatures of the Night, Volume 5
+  url: http://www.sjgames.com/gurps/books/creaturesofthenight/creaturesofthenight5/
+- id: Crusades
+  url: http://www.sjgames.com/gurps/books/crusades/
+- id: CthulhuPunk
+  url: http://www.sjgames.com/gurps/books/CthulhuPunk/
+- id: Cyberpunk
+  url: http://www.sjgames.com/gurps/books/cyberpunk/
+- skip: true
+  id: Cyberpunk Adventures
+  url: http://www.sjgames.com/gurps/books/CyberpunkAdventures/
+- id: Cyberworld
+  url: http://www.sjgames.com/gurps/books/cyberworld/
+- skip: true
+  id: Deadlands Dime Novel 1 – Aces and Eights
+  url: http://www.sjgames.com/gurps/deadlands/dn1/
+  imageUrl: http://www.sjgames.com/gurps/deadlands/img/cover_sm.jpg
+- skip: true
+  id: 'Deadlands Dime Novel 2 – Wanted: Undead or Alive'
+  url: http://www.sjgames.com/gurps/deadlands/dn2/
+  imageUrl: http://www.sjgames.com/gurps/deadlands/img/cover_sm.jpg
+- skip: true
+  id: 'Deadlands: Hexes'
+  url: http://www.sjgames.com/gurps/books/hexes/
+  imageUrl: http://www.sjgames.com/gurps/deadlands/img/cover_sm.jpg
+- skip: true
+  id: 'Deadlands: Varmints'
+  url: http://www.sjgames.com/gurps/deadlands/varmints/
+  imageUrl: http://www.sjgames.com/gurps/deadlands/img/cover_sm.jpg
+- id: 'Deadlands: Weird West'
+  url: http://www.sjgames.com/gurps/deadlands/weirdwest/
+  imageUrl: http://www.sjgames.com/gurps/deadlands/img/cover_sm.jpg
+- skip: true
+  id: Deathwish
+  url: http://www.sjgames.com/gurps/books/Deathwish/
+- id: Dinosaurs
+  url: http://www.sjgames.com/gurps/books/Dinosaurs/
+- id: Discworld
+  url: http://www.sjgames.com/gurps/books/Discworld/
+- skip: true
+  id: Discworld Also
+  url: http://www.sjgames.com/gurps/books/discworldalso/
+- id: Dragons
+  url: http://www.sjgames.com/gurps/books/dragons/
+- id: 'Dungeon Fantasy 1: Adventurers'
+  url: http://www.sjgames.com/gurps/books/dungeonfantasy/dungeonfantasy1/
+- skip: true
+  id: 'Dungeon Fantasy 2: Dungeons'
+  url: http://www.sjgames.com/gurps/books/dungeonfantasy/dungeonfantasy2/
+- skip: true
+  id: 'Dungeon Fantasy 3: The Next Level'
+  url: http://www.sjgames.com/gurps/books/dungeonfantasy/dungeonfantasy3/
+- skip: true
+  id: 'Dungeon Fantasy 4: Sages'
+  url: 'http://www.sjgames.com/gurps/books/dungeonfantasy/sages/ '
+- skip: true
+  id: 'Dungeon Fantasy 5: Allies'
+  url: http://www.sjgames.com/gurps/books/dungeonfantasy/dungeonfantasy5/
+- skip: true
+  id: 'Dungeon Fantasy 6: 40 Artifacts'
+  url: http://www.sjgames.com/gurps/books/dungeonfantasy/dungeonfantasy6/
+- skip: true
+  id: 'Dungeon Fantasy 7: Clerics'
+  url: http://www.sjgames.com/gurps/books/dungeonfantasy/dungeonfantasy7/
+- skip: true
+  id: 'Dungeon Fantasy 8: Treasure Tables'
+  url: http://www.sjgames.com/gurps/books/dungeonfantasy/dungeonfantasy8/
+- skip: true
+  id: 'Dungeon Fantasy 9: Summoners'
+  url: http://www.sjgames.com/gurps/books/dungeonfantasy/dungeonfantasy9/
+- skip: true
+  id: 'Dungeon Fantasy 10: Taverns'
+  url: http://www.sjgames.com/gurps/books/dungeonfantasy/dungeonfantasy10/
+- skip: true
+  id: 'Dungeon Fantasy 11: Power-Ups'
+  url: http://www.sjgames.com/gurps/books/dungeonfantasy/dungeonfantasy11/
+- skip: true
+  id: 'Dungeon Fantasy 12: Ninja'
+  url: http://www.sjgames.com/gurps/books/dungeonfantasy/dungeonfantasy12/
+- skip: true
+  id: 'Dungeon Fantasy 13: Loadouts'
+  url: http://www.sjgames.com/gurps/books/dungeonfantasy/dungeonfantasy13/
+- skip: true
+  id: 'Dungeon Fantasy 14: Psi'
+  url: http://www.sjgames.com/gurps/books/dungeonfantasy/dungeonfantasy14/
+- skip: true
+  id: 'Dungeon Fantasy 15: Henchmen'
+  url: http://www.sjgames.com/gurps/books/dungeonfantasy/dungeonfantasy15/
+- skip: true
+  id: 'Dungeon Fantasy 16: Wilderness Adventures'
+  url: http://www.sjgames.com/gurps/books/dungeonfantasy/dungeonfantasy16/
+- skip: true
+  id: 'Dungeon Fantasy 17: Guilds'
+  url: http://www.sjgames.com/gurps/books/dungeonfantasy/dungeonfantasy17/
+- skip: true
+  id: 'Dungeon Fantasy 18: Power Items'
+  url: http://www.sjgames.com/gurps/books/dungeonfantasy/dungeonfantasy18/
+- skip: true
+  id: 'Dungeon Fantasy Adventure 1: Mirror of the Fire Demon'
+  url: http://www.sjgames.com/gurps/books/dungeonfantasyadventure1/
+- skip: true
+  id: 'Dungeon Fantasy Denizens: Barbarians'
+  url: http://www.sjgames.com/gurps/books/dungeonfantasy/barbarians/
+- skip: true
+  id: Dungeon Fantasy Monsters 1
+  url: http://www.sjgames.com/gurps/books/dungeonfantasymonsters1/
+- skip: true
+  id: 'Dungeon Fantasy Monsters 2: Icky Goo'
+  url: http://www.sjgames.com/gurps/books/dungeonfantasymonsters2/
+- skip: true
+  id: 'Dungeon Fantasy Treasures 1: Glittering Prizes'
+  url: http://www.sjgames.com/gurps/books/dungeonfantasytreasures1/
+- skip: true
+  id: 'Dungeon Fantasy Treasures 2: Epic Treasures'
+  url: http://www.sjgames.com/gurps/books/dungeonfantasytreasures2/
+- id: Egypt
+  url: http://www.sjgames.com/gurps/books/egypt/
+- id: Espionage
+  url: http://www.sjgames.com/gurps/books/espionage/
+- id: Faerie
+  url: http://www.sjgames.com/gurps/books/faerie/
+- id: Fantasy
+  url: http://www.sjgames.com/gurps/books/fantasy/
+- skip: true
+  id: Fantasy Adventures
+  url: http://www.sjgames.com/gurps/books/FantasyAdventures/
+- skip: true
+  id: Fantasy Bestiary
+  url: http://www.sjgames.com/gurps/books/FantasyBestiary/
+- id: Fantasy Folk
+  url: http://www.sjgames.com/gurps/books/FantasyFolk/
+- id: 'Fantasy II: The Mad Lands'
+  url: http://www.sjgames.com/gurps/books/madlands/
+- id: 'Fantasy-Tech 1: The Edge of Reality'
+  url: http://www.sjgames.com/gurps/books/fantasy-tech/fantasy-tech1/
+- id: 'Fantasy: Harkwood'
+  url: http://www.sjgames.com/gurps/books/Harkwood/
+- id: 'Fantasy: Tredroy'
+  url: http://www.sjgames.com/gurps/books/Tredroy/
+- id: Flight 13
+  url: http://www.sjgames.com/gurps/books/Flight13/
+- id: Goblins
+  url: http://www.sjgames.com/gurps/books/Goblins/
+- id: Greece
+  url: http://www.sjgames.com/gurps/books/greece/
+- id: Grimoire
+  url: http://www.sjgames.com/gurps/books/Grimoire/
+- id: Gun Fu
+  url: http://www.sjgames.com/gurps/books/gunfu/
+- id: High-Tech
+  url: http://www.sjgames.com/gurps/books/high-tech/
+- skip: true
+  id: 'High-Tech: Adventure Guns'
+  url: http://www.sjgames.com/gurps/books/adventureguns/
+- skip: true
+  id: 'High-Tech: Pulp Guns 1'
+  url: http://www.sjgames.com/gurps/books/pulpguns/pulpguns1/
+- skip: true
+  id: 'High-Tech: Pulp Guns 2'
+  url: http://www.sjgames.com/gurps/books/pulpguns/pulpguns2/
+- skip: true
+  id: 'High-Tech: Weapon Tables'
+  url: http://www.sjgames.com/gurps/books/weapontables/
+- id: Horror
+  url: http://www.sjgames.com/gurps/books/horror/
+- id: 'Horror: The Madness Dossier'
+  url: http://www.sjgames.com/gurps/books/madnessdossier/
+- id: Horseclans
+  url: http://www.sjgames.com/gurps/books/horseclans/
+- id: 'Hot Spots: Constantinople, 527-1204 A.D.'
+  url: http://www.sjgames.com/gurps/books/hotspots/constantinople/
+- id: 'Hot Spots: Renaissance Florence'
+  url: http://www.sjgames.com/gurps/books/hotspots/renaissanceflorence/
+- id: Humanx
+  url: http://www.sjgames.com/gurps/books/humanx/
+- id: 'Humanx: For Love of Mother-Not'
+  url: http://www.sjgames.com/gurps/books/ForLoveOfMother-Not/
+- id: Ice Age
+  url: http://www.sjgames.com/gurps/books/iceage/
+- id: Illuminati
+  url: http://www.sjgames.com/gurps/books/Illuminati/
+- id: Imperial Rome
+  url: http://www.sjgames.com/gurps/books/ImperialRome/
+- id: In Nomine
+  url: http://www.sjgames.com/gurps/books/in-nomine/
+- id: Infinite Worlds
+  url: http://www.sjgames.com/gurps/books/infiniteworlds/
+- skip: true
+  id: 'Infinite Worlds: Britannica-6'
+  url: http://www.sjgames.com/gurps/books/britannica-6/
+- skip: true
+  id: 'Infinite Worlds: Collegio Januari'
+  url: http://www.sjgames.com/gurps/books/collegiojanuari/
+- skip: true
+  id: 'Infinite Worlds: Lost Worlds'
+  url: http://www.sjgames.com/gurps/books/lostworlds/
+- skip: true
+  id: 'Infinite Worlds: Worlds of Horror'
+  url: http://www.sjgames.com/gurps/books/worldsofhorror/
+- id: IOU
+  url: http://www.sjgames.com/gurps/books/IOU/
+- skip: true
+  id: 'IOU: It''s Not Just a Game'
+  url: http://www.sjgames.com/gurps/books/itsnotjustagame/
+- skip: true
+  id: IST Kingston
+  url: http://www.sjgames.com/gurps/books/istkingston/
+- id: Japan
+  url: http://www.sjgames.com/gurps/books/Japan/
+- skip: true
+  id: Lair of the Fat Man
+  url: http://www.sjgames.com/gurps/books/lairofthefatman/
+- id: Lands Out of Time
+  url: http://www.sjgames.com/gurps/books/landsoutoftime/
+- id: Lensman
+  url: http://www.sjgames.com/gurps/books/Lensman/
+- skip: true
+  id: 'Loadouts: Low-Tech Armor'
+  url: http://www.sjgames.com/gurps/books/loadouts/lowtecharmor/
+- skip: true
+  id: 'Loadouts: Monster Hunters'
+  url: http://www.sjgames.com/gurps/books/loadouts/monsterhunters/
+- id: 'Locations: Hellsgate'
+  url: http://www.sjgames.com/gurps/books/locations/hellsgate/
+- id: 'Locations: Metro of Madness'
+  url: http://www.sjgames.com/gurps/books/locations/metroofmadness/
+- id: 'Locations: St. George''s Cathedral'
+  url: http://www.sjgames.com/gurps/books/locations/stgeorgescathedral/
+- id: 'Locations: Tower of Octavius'
+  url: http://www.sjgames.com/gurps/books/locations/towerofoctavius/
+- id: 'Locations: Worminghall'
+  url: http://www.sjgames.com/gurps/books/locations/worminghall/
+- id: Low-Tech
+  url: http://www.sjgames.com/gurps/books/low-tech/
+- skip: true
+  id: 'Low-Tech Companion 1: Philosophers and Kings'
+  url: http://www.sjgames.com/gurps/books/Low-Tech/companion1/
+- skip: true
+  id: 'Low-Tech Companion 2: Weapons and Warriors'
+  url: http://www.sjgames.com/gurps/books/Low-Tech/companion2/
+- skip: true
+  id: 'Low-Tech Companion 3: Daily Life and Economics'
+  url: http://www.sjgames.com/gurps/books/Low-Tech/companion3/
+- skip: true
+  id: 'Low-Tech: Instant Armor'
+  url: http://www.sjgames.com/gurps/books/instantarmor/
+- skip: true
+  id: MacGuffin Alphabet
+  url: http://www.sjgames.com/gurps/books/macguffinalphabet/
+- id: 'Mage: The Ascension'
+  url: http://www.sjgames.com/gurps/books/MageTheAscension/
+- id: Magic
+  url: http://www.sjgames.com/gurps/books/magic/
+- id: Magic Items 1
+  url: http://www.sjgames.com/gurps/books/MagicItems/
+- skip: true
+  id: Magic Items 2
+  url: http://www.sjgames.com/gurps/books/magicitems2/
+- skip: true
+  id: Magic Items 3
+  url: http://www.sjgames.com/gurps/books/magicitems3/
+- skip: true
+  id: 'Magic: Death Spells'
+  url: http://www.sjgames.com/gurps/books/Magic/deathspells/
+- skip: true
+  id: 'Magic: Plant Spells'
+  url: http://www.sjgames.com/gurps/books/Magic/plantspells/
+- skip: true
+  id: 'Magical Styles: Dungeon Magic'
+  url: http://www.sjgames.com/gurps/books/dungeonmagic/
+- id: Man to Man
+  url: http://www.sjgames.com/gurps/books/man-to-man/
+- id: Mars
+  url: http://www.sjgames.com/gurps/books/mars/
+- id: 'Mars: Grendel'
+  url: http://www.sjgames.com/gurps/books/grendel/
+- id: 'Mars: Rescue Mission'
+  url: http://www.sjgames.com/gurps/books/rescuemission/
+- id: Martial Arts
+  url: http://www.sjgames.com/gurps/books/martialarts/
+- skip: true
+  id: Martial Arts Adventures
+  url: http://www.sjgames.com/gurps/books/MartialArtsAdventures/
+- skip: true
+  id: 'Martial Arts: Fairbairn Close Combat Systems'
+  url: http://www.sjgames.com/gurps/books/fairbairn/
+- skip: true
+  id: 'Martial Arts: Gladiators'
+  url: http://www.sjgames.com/gurps/books/martialarts/gladiators/
+- skip: true
+  id: 'Martial Arts: Technical Grappling'
+  url: http://www.sjgames.com/gurps/books/MartialArts/technicalgrappling/
+- skip: true
+  id: 'Martial Arts: Yrth Fighting Styles'
+  url: http://www.sjgames.com/gurps/books/MartialArts/yrthfightingstyles/
+- id: Mass Combat
+  url: http://www.sjgames.com/gurps/books/masscombat/
+- id: Mecha
+  url: http://www.sjgames.com/gurps/books/Mecha/
+- id: Middle Ages 1
+  url: http://www.sjgames.com/gurps/books/MiddleAges1/
+- id: Modern Firepower
+  url: http://www.sjgames.com/gurps/books/modernfirepower/
+- skip: true
+  id: 'Monster Hunters 1: Champions'
+  url: http://www.sjgames.com/gurps/books/monsterhunters/monsterhunters1/
+- skip: true
+  id: 'Monster Hunters 2: The Mission'
+  url: http://www.sjgames.com/gurps/books/monsterhunters/monsterhunters2/
+- skip: true
+  id: 'Monster Hunters 3: The Enemy'
+  url: http://www.sjgames.com/gurps/books/monsterhunters/monsterhunters3/
+- skip: true
+  id: 'Monster Hunters 4: Sidekicks'
+  url: http://www.sjgames.com/gurps/books/monsterhunters/monsterhunters4/
+- skip: true
+  id: 'Monster Hunters 5: Applied Xenology'
+  url: http://www.sjgames.com/gurps/books/monsterhunters/monsterhunters5/
+- id: Monsters
+  url: http://www.sjgames.com/gurps/books/monsters/
+- id: Mysteries
+  url: http://www.sjgames.com/gurps/books/mysteries/
+- id: Myth
+  url: http://www.sjgames.com/gurps/books/myth/
+- id: New Sun
+  url: http://www.sjgames.com/gurps/books/newsun/
+- id: Ogre
+  url: http://www.sjgames.com/gurps/books/ogre/
+- id: Old Stone Fort
+  url: http://www.sjgames.com/gurps/books/OldStoneFort/
+- id: Old West
+  url: http://www.sjgames.com/gurps/books/OldWest/
+- id: Operation Endgame
+  url: http://www.sjgames.com/gurps/books/OperationEndgame/
+- id: Orcslayer
+  url: http://www.sjgames.com/gurps/books/orcslayer/
+- id: Places of Mystery
+  url: http://www.sjgames.com/gurps/books/PlacesMystery/
+- id: Planet Krishna
+  url: http://www.sjgames.com/gurps/books/Krishna/
+- id: Planet of Adventure
+  url: http://www.sjgames.com/gurps/books/planetofadventure/
+- skip: true
+  id: 'Power-Ups 1: Imbuements'
+  url: 'http://www.sjgames.com/gurps/books/power-ups/power-ups1/ '
+- skip: true
+  id: 'Power-Ups 2: Perks'
+  url: http://www.sjgames.com/gurps/books/power-ups/power-ups2/
+- skip: true
+  id: 'Power-Ups 3: Talents'
+  url: http://www.sjgames.com/gurps/books/power-ups/power-ups3/
+- skip: true
+  id: 'Power-Ups 4: Enhancements'
+  url: http://www.sjgames.com/gurps/books/power-ups/power-ups4/
+- skip: true
+  id: 'Power-Ups 5: Impulse Buys'
+  url: http://www.sjgames.com/gurps/books/power-ups/power-ups5/
+- skip: true
+  id: 'Power-Ups 6: Quirks'
+  url: http://www.sjgames.com/gurps/books/power-ups/power-ups6/
+- skip: true
+  id: 'Power-Ups 7: Wildcard Skills'
+  url: http://www.sjgames.com/gurps/books/power-ups/power-ups7/
+- skip: true
+  id: 'Power-Ups 8: Limitations'
+  url: http://www.sjgames.com/gurps/books/power-ups/power-ups8/
+- id: Powers
+  url: http://www.sjgames.com/gurps/books/powers/
+- skip: true
+  id: 'Powers: Divine Favor'
+  url: http://www.sjgames.com/gurps/books/divinefavor/
+- skip: true
+  id: 'Powers: Enhanced Senses'
+  url: http://www.sjgames.com/gurps/books/enhancedsenses/
+- skip: true
+  id: 'Powers: The Weird'
+  url: http://www.sjgames.com/gurps/books/theweird/
+- id: Prime Directive
+  url: http://www.sjgames.com/gurps/books/primedirective/
+- id: Prisoner
+  url: http://www.sjgames.com/gurps/books/prisoner/
+- id: Psi-Tech
+  url: http://www.sjgames.com/gurps/books/psi-tech/
+- skip: true
+  id: Psionic Campaigns
+  url: http://www.sjgames.com/gurps/books/psioniccampaigns/
+- skip: true
+  id: Psionic Powers
+  url: http://www.sjgames.com/gurps/books/psionicpowers/
+- id: Psionics
+  url: http://www.sjgames.com/gurps/books/Psionics/
+- skip: true
+  id: Psis
+  url: http://www.sjgames.com/gurps/books/psis/
+- id: Reign of Steel
+  url: http://www.sjgames.com/gurps/books/reignsteel/
+- skip: true
+  id: 'Reign of Steel: Will to Live'
+  url: http://www.sjgames.com/gurps/books/willtolive/
+- id: Religion
+  url: http://www.sjgames.com/gurps/books/Religion/
+- id: Riverworld
+  url: http://www.sjgames.com/gurps/books/riverworld/
+- id: Robin Hood
+  url: http://www.sjgames.com/gurps/books/robinhood/
+- id: Robots
+  url: http://www.sjgames.com/gurps/books/Robots/
+- id: Rogues
+  url: http://www.sjgames.com/gurps/books/rogues/
+- id: Russia
+  url: http://www.sjgames.com/gurps/books/russia/
+- id: Scarlet Pimpernel
+  url: http://www.sjgames.com/gurps/books/scarletpimpernel/
+- id: Screampunk
+  url: http://www.sjgames.com/gurps/books/screampunk/
+- id: SEALs in Vietnam
+  url: http://www.sjgames.com/gurps/books/sealsinvietnam/
+- id: Shapeshifters
+  url: http://www.sjgames.com/gurps/books/shapeshifters/
+- id: Social Engineering
+  url: http://www.sjgames.com/gurps/books/socialengineering/
+- skip: true
+  id: 'Social Engineering: Back to School'
+  url: http://www.sjgames.com/gurps/books/backtoschool/
+- skip: true
+  id: 'Social Engineering: Pulling Rank'
+  url: http://www.sjgames.com/gurps/books/pullingrank/
+- id: Space
+  url: http://www.sjgames.com/gurps/books/Space/
+- skip: true
+  id: Space Adventures
+  url: http://www.sjgames.com/gurps/books/SpaceAdventures/
+- skip: true
+  id: Space Atlas
+  url: http://www.sjgames.com/gurps/books/SpaceAtlas/
+- skip: true
+  id: Space Atlas 2
+  url: http://www.sjgames.com/gurps/books/SpaceAtlas2/
+- skip: true
+  id: Space Atlas 3
+  url: http://www.sjgames.com/gurps/books/SpaceAtlas3/
+- skip: true
+  id: Space Atlas 4
+  url: http://www.sjgames.com/gurps/books/SpaceAtlas4/
+- skip: true
+  id: Space Bestiary
+  url: http://www.sjgames.com/gurps/books/SpaceBestiary/
+- skip: true
+  id: 'Space: Stardemon'
+  url: http://www.sjgames.com/gurps/books/Stardemon/
+- skip: true
+  id: 'Space: Terradyne'
+  url: http://www.sjgames.com/gurps/books/terradyne/
+- skip: true
+  id: 'Space: Unnight'
+  url: http://www.sjgames.com/gurps/books/Unnight/
+- skip: true
+  id: Spaceships
+  url: http://www.sjgames.com/gurps/books/spaceships/spaceships1/
+- skip: true
+  id: 'Spaceships 2: Traders, Liners, and Transports'
+  url: http://www.sjgames.com/gurps/books/spaceships/spaceships2/
+- skip: true
+  id: 'Spaceships 3: Warships and Space Pirates'
+  url: http://www.sjgames.com/gurps/books/spaceships/spaceships3/
+- skip: true
+  id: 'Spaceships 4: Fighters, Carriers, and Mecha'
+  url: http://www.sjgames.com/gurps/books/spaceships/spaceships4/
+- skip: true
+  id: 'Spaceships 5: Exploration and Colony Spacecraft'
+  url: http://www.sjgames.com/gurps/books/spaceships/spaceships5/
+- skip: true
+  id: 'Spaceships 6: Mining and Industrial Spacecraft'
+  url: http://www.sjgames.com/gurps/books/spaceships/spaceships6/
+- skip: true
+  id: 'Spaceships 7: Divergent and Paranormal Tech'
+  url: http://www.sjgames.com/gurps/books/spaceships/spaceships7/
+- skip: true
+  id: 'Spaceships 8: Transhuman Spacecraft'
+  url: http://www.sjgames.com/gurps/books/spaceships/spaceships8/
+- id: Special Ops
+  url: http://www.sjgames.com/gurps/books/SpecialOps/
+- id: Spirits
+  url: http://www.sjgames.com/gurps/books/spirits/
+- id: Steam-Tech
+  url: http://www.sjgames.com/gurps/books/steamtech/
+- id: Steampunk
+  url: http://www.sjgames.com/gurps/books/steampunk/
+- skip: true
+  id: Super Scum
+  url: http://www.sjgames.com/gurps/books/SuperScum/
+- id: Supers
+  url: http://www.sjgames.com/gurps/books/supers/
+- skip: true
+  id: Supers Adventures
+  url: http://www.sjgames.com/gurps/books/SupersAdventures/
+- skip: true
+  id: 'Supers: International Super Teams'
+  url: http://www.sjgames.com/gurps/books/InternationalSuperTeams/
+- skip: true
+  id: 'Supers: Mixed Doubles'
+  url: http://www.sjgames.com/gurps/books/MixedDoubles/
+- skip: true
+  id: 'Supers: School of Hard Knocks'
+  url: http://www.sjgames.com/gurps/books/SchoolHardKnocks/
+- id: Supertemps
+  url: http://www.sjgames.com/gurps/books/Supertemps/
+- skip: true
+  id: Supporting Cast
+  url: http://www.sjgames.com/gurps/books/SupportingCast/
+- skip: true
+  id: 'Supporting Cast: Age of Sail Pirate Crew'
+  url: http://www.sjgames.com/gurps/books/ageofsailpiratecrew/
+- id: Swashbucklers
+  url: http://www.sjgames.com/gurps/books/Swashbucklers/
+- id: SWAT
+  url: http://www.sjgames.com/gurps/books/swat/
+- skip: true
+  id: Tactical Shooting
+  url: http://www.sjgames.com/gurps/books/tacticalshooting/
+- skip: true
+  id: Tales of the Solar Patrol
+  url: http://www.sjgames.com/gurps/books/talesofthesolarpatrol/
+- id: Technomancer
+  url: http://www.sjgames.com/gurps/books/technomancer/
+- skip: true
+  id: 'Technomancer: Funny New Guys'
+  url: http://www.sjgames.com/gurps/books/funnynewguys/
+- skip: true
+  id: 'Template Toolkit 1: Characters'
+  url: http://www.sjgames.com/gurps/books/templatetoolkit1/
+- id: Temple of the Lost Gods
+  url: http://www.sjgames.com/gurps/books/templeofthelostgods/
+- id: Thaumatology
+  url: http://www.sjgames.com/gurps/books/thaumatology/
+- skip: true
+  id: 'Thaumatology: Age of Gold'
+  url: http://www.sjgames.com/gurps/books/ageofgold/
+- skip: true
+  id: 'Thaumatology: Alchemical Baroque'
+  url: http://www.sjgames.com/gurps/books/alchemicalbaroque/
+- skip: true
+  id: 'Thaumatology: Chinese Elemental Powers'
+  url: http://www.sjgames.com/gurps/books/chineseelementalpowers/
+- skip: true
+  id: 'Thaumatology: Magical Styles'
+  url: http://www.sjgames.com/gurps/books/magicalstyles/
+- skip: true
+  id: 'Thaumatology: Ritual Path Magic'
+  url: http://www.sjgames.com/gurps/books/ritualpathmagic/
+- skip: true
+  id: 'Thaumatology: Sorcery'
+  url: http://www.sjgames.com/gurps/books/sorcery/
+- skip: true
+  id: 'Thaumatology: Urban Magics'
+  url: http://www.sjgames.com/gurps/books/urbanmagics/
+- id: Time Travel
+  url: http://www.sjgames.com/gurps/books/TimeTravel/
+- skip: true
+  id: Time Travel Adventures
+  url: http://www.sjgames.com/gurps/books/TimeTravelAdventures/
+- skip: true
+  id: Timeline
+  url: http://www.sjgames.com/gurps/books/Timeline/
+- skip: true
+  id: 'Transhuman Space: Broken Dreams'
+  url: http://www.sjgames.com/gurps/transhuman/brokendreams/
+- skip: true
+  id: 'Transhuman Space: Changing Times'
+  url: http://www.sjgames.com/gurps/transhuman/changingtimes/
+- id: 'Transhuman Space: Fifth Wave'
+  url: http://www.sjgames.com/gurps/transhuman/fifthwave/
+- skip: true
+  id: 'Transhuman Space: In The Well'
+  url: http://www.sjgames.com/gurps/transhumanspace/inthewell/
+- skip: true
+  id: 'Transhuman Space: Martial Arts 2100'
+  url: http://www.sjgames.com/gurps/transhuman/martialarts2100/
+- skip: true
+  id: 'Transhuman Space: Orbital Decay'
+  url: http://www.sjgames.com/gurps/transhuman/orbitaldecay/
+- skip: true
+  id: 'Transhuman Space: Spacecraft of the Solar System'
+  url: http://www.sjgames.com/gurps/transhuman/spacecraft/
+- skip: true
+  id: 'Transhuman Space: Transhuman Mysteries'
+  url: http://www.sjgames.com/gurps/transhuman/transhumanmysteries/
+- id: Traveller
+  url: http://www.sjgames.com/gurps/traveller/core/
+  imageUrl: http://www.sjgames.com/gurps/traveller/core/img/cover-sm.jpg
+- skip: true
+  id: Traveller Deck Plan 1 – Beowulf-Class Far Trader
+  url: http://www.sjgames.com/gurps/traveller/deckplan1/
+  imageUrl: http://www.sjgames.com/gurps/traveller/core/img/cover-sm.jpg
+- skip: true
+  id: Traveller Deck Plan 2 – Modular Cutter
+  url: http://www.sjgames.com/gurps/traveller/deckplan2/
+  imageUrl: http://www.sjgames.com/gurps/traveller/core/img/cover-sm.jpg
+- skip: true
+  id: Traveller Deck Plan 3 – Empress Marava-Class Far Trader
+  url: http://www.sjgames.com/gurps/traveller/DP3/
+  imageUrl: http://www.sjgames.com/gurps/traveller/core/img/cover-sm.jpg
+- skip: true
+  id: Traveller Deck Plan 5 – Sulieman-Class Scout/Courier
+  url: http://www.sjgames.com/gurps/traveller/DP5/
+  imageUrl: http://www.sjgames.com/gurps/traveller/core/img/cover-sm.jpg
+- skip: true
+  id: Traveller Deck Plan 6 – Dragon-Class System Defense Boat
+  url: http://www.sjgames.com/gurps/traveller/DP6/
+  imageUrl: http://www.sjgames.com/gurps/traveller/core/img/cover-sm.jpg
+- skip: true
+  id: 'Traveller: Alien Races 1'
+  url: http://www.sjgames.com/gurps/traveller/AlienRaces/
+  imageUrl: http://www.sjgames.com/gurps/traveller/core/img/cover-sm.jpg
+- skip: true
+  id: 'Traveller: Alien Races 2'
+  url: http://www.sjgames.com/gurps/traveller/alienraces2/
+  imageUrl: http://www.sjgames.com/gurps/traveller/core/img/cover-sm.jpg
+- skip: true
+  id: 'Traveller: Alien Races 3'
+  url: http://www.sjgames.com/gurps/traveller/alienraces3/
+  imageUrl: http://www.sjgames.com/gurps/traveller/core/img/cover-sm.jpg
+- skip: true
+  id: 'Traveller: Alien Races 4'
+  url: http://www.sjgames.com/gurps/traveller/alienraces4/
+  imageUrl: http://www.sjgames.com/gurps/traveller/core/img/cover-sm.jpg
+- skip: true
+  id: 'Traveller: Behind The Claw'
+  url: http://www.sjgames.com/gurps/traveller/spinward/
+  imageUrl: http://www.sjgames.com/gurps/traveller/core/img/cover-sm.jpg
+- skip: true
+  id: 'Traveller: Droyne Coyn Set'
+  url: http://www.sjgames.com/gurps/traveller/alienraces3/index.html#coyns
+  imageUrl: http://www.sjgames.com/gurps/traveller/core/img/cover-sm.jpg
+- skip: true
+  id: 'Traveller: Far Trader'
+  url: http://www.sjgames.com/gurps/traveller/fartrader/
+  imageUrl: http://www.sjgames.com/gurps/traveller/core/img/cover-sm.jpg
+- skip: true
+  id: 'Traveller: First In'
+  url: http://www.sjgames.com/gurps/traveller/firstin/
+  imageUrl: http://www.sjgames.com/gurps/traveller/core/img/cover-sm.jpg
+- skip: true
+  id: 'Traveller: Ground Forces'
+  url: http://www.sjgames.com/gurps/traveller/groundforces/
+  imageUrl: http://www.sjgames.com/gurps/traveller/core/img/cover-sm.jpg
+- skip: true
+  id: 'Traveller: Heroes 1 – Bounty Hunters'
+  url: http://www.sjgames.com/gurps/traveller/heroes1/
+  imageUrl: http://www.sjgames.com/gurps/traveller/core/img/cover-sm.jpg
+- skip: true
+  id: 'Traveller: Humaniti'
+  url: http://www.sjgames.com/gurps/traveller/humaniti/
+  imageUrl: http://www.sjgames.com/gurps/traveller/core/img/cover-sm.jpg
+- skip: true
+  id: 'Traveller: Interstellar Wars'
+  url: http://www.sjgames.com/gurps/traveller/interstellarwars/
+  imageUrl: http://www.sjgames.com/gurps/traveller/core/img/cover-sm.jpg
+- skip: true
+  id: 'Traveller: Modular Cutter'
+  url: http://www.sjgames.com/gurps/traveller/modularcutter/
+  imageUrl: http://www.sjgames.com/gurps/traveller/core/img/cover-sm.jpg
+- skip: true
+  id: 'Traveller: Nobles'
+  url: http://www.sjgames.com/gurps/traveller/nobles/
+  imageUrl: http://www.sjgames.com/gurps/traveller/core/img/cover-sm.jpg
+- skip: true
+  id: 'Traveller: Planetary Survey 1 – Kamsii'
+  url: http://www.sjgames.com/gurps/traveller/planetarysurvey1/
+  imageUrl: http://www.sjgames.com/gurps/traveller/core/img/cover-sm.jpg
+- skip: true
+  id: 'Traveller: Planetary Survey 2 – Denuli'
+  url: http://www.sjgames.com/gurps/traveller/PS2/
+  imageUrl: http://www.sjgames.com/gurps/traveller/core/img/cover-sm.jpg
+- skip: true
+  id: 'Traveller: Planetary Survey 3 – Granicus'
+  url: http://www.sjgames.com/gurps/traveller/ps3/
+  imageUrl: http://www.sjgames.com/gurps/traveller/core/img/cover-sm.jpg
+- skip: true
+  id: 'Traveller: Planetary Survey 4 – Glisten'
+  url: http://www.sjgames.com/gurps/traveller/ps4/
+  imageUrl: http://www.sjgames.com/gurps/traveller/core/img/cover-sm.jpg
+- skip: true
+  id: 'Traveller: Planetary Survey 5 – Tobibak'
+  url: http://www.sjgames.com/gurps/traveller/ps5/
+  imageUrl: http://www.sjgames.com/gurps/traveller/core/img/cover-sm.jpg
+- skip: true
+  id: 'Traveller: Planetary Survey 6 – Darkmoon'
+  url: http://www.sjgames.com/gurps/traveller/ps6/
+  imageUrl: http://www.sjgames.com/gurps/traveller/core/img/cover-sm.jpg
+- skip: true
+  id: 'Traveller: Rim of Fire'
+  url: http://www.sjgames.com/gurps/traveller/solomanirim/
+  imageUrl: http://www.sjgames.com/gurps/traveller/core/img/cover-sm.jpg
+- skip: true
+  id: 'Traveller: Star Mercs'
+  url: http://www.sjgames.com/gurps/traveller/Mercs/
+  imageUrl: http://www.sjgames.com/gurps/traveller/core/img/cover-sm.jpg
+- skip: true
+  id: 'Traveller: Starports'
+  url: http://www.sjgames.com/gurps/traveller/starports/
+  imageUrl: http://www.sjgames.com/gurps/traveller/core/img/cover-sm.jpg
+- skip: true
+  id: 'Traveller: Starships'
+  url: http://www.sjgames.com/gurps/traveller/starships/
+  imageUrl: http://www.sjgames.com/gurps/traveller/core/img/cover-sm.jpg
+- skip: true
+  id: 'Traveller: Sword Worlds'
+  url: http://www.sjgames.com/gurps/traveller/swordworlds/
+  imageUrl: http://www.sjgames.com/gurps/traveller/core/img/cover-sm.jpg
+- id: Ultra-Tech
+  url: http://www.sjgames.com/gurps/books/ultra-tech/
+- skip: true
+  id: Ultra-Tech 2
+  url: http://www.sjgames.com/gurps/books/Ultra-Tech-2/
+- skip: true
+  id: 'Ultra-Tech: Weapon Tables'
+  url: http://www.sjgames.com/gurps/books/Ultra-Tech/weapontables/
+- id: Undead
+  url: http://www.sjgames.com/gurps/books/Undead/
+- skip: true
+  id: Underground Adventures
+  url: http://www.sjgames.com/gurps/books/undergroundadventures/
+- id: Uplift
+  url: http://www.sjgames.com/gurps/books/Uplift/
+- skip: true
+  id: Vampire Companion
+  url: http://www.sjgames.com/gurps/books/VampireCompanion/
+- id: 'Vampire: The Masquerade'
+  url: http://www.sjgames.com/gurps/books/VampireTheMasquerade/
+- id: Vikings
+  url: http://www.sjgames.com/gurps/books/Vikings/
+- id: Villains
+  url: http://www.sjgames.com/gurps/books/villains/
+- id: Voodoo
+  url: http://www.sjgames.com/gurps/books/voodoo/
+- id: Vorkosigan Saga
+  url: http://www.sjgames.com/gurps/books/vorkosigan/
+- id: War Against the Chtorr
+  url: http://www.sjgames.com/gurps/books/chtorr/
+- id: Warehouse 23
+  url: http://www.sjgames.com/gurps/books/Warehouse23/
+- id: Warriors
+  url: http://www.sjgames.com/gurps/books/warriors/
+- skip: true
+  id: 'Weird War II: The Secret of the Gneisenau'
+  url: http://www.sjgames.com/gurps/ww2/gneisenau/
+- id: 'Werewolf: The Apocalypse'
+  url: http://www.sjgames.com/gurps/books/WerewolfTheApocalypse/
+- skip: true
+  id: Who's Who 1
+  url: http://www.sjgames.com/gurps/books/whoswho1/
+- skip: true
+  id: Who's Who 2
+  url: http://www.sjgames.com/gurps/books/whoswho2/
+- id: Wild Cards
+  url: http://www.sjgames.com/gurps/books/wildcards/
+- skip: true
+  id: 'Wild Cards: Aces Abroad'
+  url: http://www.sjgames.com/gurps/books/AcesAbroad/
+- id: Witch World
+  url: http://www.sjgames.com/gurps/books/witchworld/
+- id: Wizards
+  url: http://www.sjgames.com/gurps/books/Wizards/
+- id: WWII
+  url: http://www.sjgames.com/gurps/books/ww2/
+- skip: true
+  id: 'WWII: All the King''s Men'
+  url: http://www.sjgames.com/gurps/books/ww2/allthekingsmen/
+- skip: true
+  id: 'WWII: Dogfaces'
+  url: http://www.sjgames.com/gurps/ww2/dogfaces/
+- skip: true
+  id: 'WWII: Doomed White Eagle'
+  url: http://www.sjgames.com/gurps/ww2/doomedwhiteeagle/
+- skip: true
+  id: 'WWII: Frozen Hell'
+  url: http://www.sjgames.com/gurps/ww2/frozenhell/
+- skip: true
+  id: 'WWII: Grim Legions'
+  url: http://www.sjgames.com/gurps/ww2/grimlegions/
+- skip: true
+  id: 'WWII: Hand of Steel'
+  url: http://www.sjgames.com/gurps/books/ww2/handofsteel/
+- skip: true
+  id: 'WWII: Iron Cross'
+  url: http://www.sjgames.com/gurps/books/ww2/ironcross/
+- skip: true
+  id: 'WWII: Leyte Gulf'
+  url: http://www.sjgames.com/gurps/ww2/leytegulf/
+- skip: true
+  id: 'WWII: Michael''s Army'
+  url: http://www.sjgames.com/gurps/ww2/michaelsarmy/
+- skip: true
+  id: 'WWII: Motor Pool'
+  url: http://www.sjgames.com/gurps/books/ww2/motorpool/
+- skip: true
+  id: 'WWII: Red Tide'
+  url: http://www.sjgames.com/gurps/books/ww2/redtide/
+- skip: true
+  id: 'WWII: Return to Honor'
+  url: http://www.sjgames.com/gurps/ww2/returntohonor/
+- skip: true
+  id: 'WWII: Their Finest Hour'
+  url: http://www.sjgames.com/gurps/ww2/finesthour/
+- id: 'WWII: Weird War II'
+  url: http://www.sjgames.com/gurps/ww2/weirdwar2/
+- id: Y2K
+  url: http://www.sjgames.com/gurps/books/y2k/
+- id: Zombies
+  url: http://www.sjgames.com/gurps/books/zombies/
+- skip: true
+  id: 'Zombies: Day One'
+  url: http://www.sjgames.com/gurps/books/dayone/
+- id: Zombietown U.S.A.
+  url: http://www.sjgames.com/gurps/books/ZombietownUSA/

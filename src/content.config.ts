@@ -14,4 +14,12 @@ const games = defineCollection({
   })
 })
 
-export const collections = { games };
+const gurpsMashup = defineCollection({
+  loader: file("./src/gurps-mashup.yaml"),
+  schema: z.object({
+    skip: z.boolean().optional(),
+    url: z.string().url()
+  })
+})
+
+export const collections = { games, gurpsMashup };

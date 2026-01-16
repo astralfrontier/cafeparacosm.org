@@ -1,0 +1,7 @@
+---
+import { getCollection } from "astro:content";
+import GurpsMashupClient from "./GurpsMashupClient.tsx";
+
+const books = await getCollection("gurpsMashup", ({data}) => data.skip != true);
+---
+<GurpsMashupClient client:load books={books} />
