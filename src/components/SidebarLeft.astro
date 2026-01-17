@@ -1,6 +1,15 @@
 ---
 import { getCollection } from "astro:content"
-import { sortBy, toLower } from "ramda";
+import { sortBy, take, toLower } from "ramda";
+
+import blog from "@/blog-utils.ts"
+import BlogEntry from "./BlogEntry.astro";
+
+interface Props {
+  expandBlogPosts: boolean;
+}
+
+const { expandBlogPosts = false } = Astro.props;
 
 const sortByNameCaseInsensitive = sortBy((entry: any) => toLower(entry.data.name));
 
@@ -17,6 +26,18 @@ const games = sortByNameCaseInsensitive(await getCollection("games"));
           </a>
         </li>
       )}
+      {blog.length > 0 &&
+      <>
+      <li><a href="/blog/1">Blog</a></li>
+      {expandBlogPosts ?
+        take(10, blog).map(
+          post => <li><small><BlogEntry blog={post} /></small></li>
+        )
+      :
+      <></>
+      }
+      </>
+      }
     </ul>
   </nav>
 </aside>

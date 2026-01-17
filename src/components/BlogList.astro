@@ -1,0 +1,12 @@
+---
+import BlogEntry from "./BlogEntry.astro";
+
+interface Props {
+  blogs: any[];
+}
+
+const { blogs } = Astro.props;
+---
+<ul>
+  {blogs.map((blog: any) => <li><BlogEntry blog={blog} /></li>)}
+</ul>

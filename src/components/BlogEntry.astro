@@ -1,0 +1,8 @@
+---
+interface Props {
+  blog: any;
+}
+
+const { blog } = Astro.props;
+---
+<a href={`/blog/${blog.id}/`}>{blog.data.name}</a>

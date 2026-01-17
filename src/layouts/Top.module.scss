@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 12rem 1fr;
   grid-template-areas:
-    "sidebarleft topcontent sidebarright";
+    "sidebarleft topcontent";
 }
 
 .sidebarleft {
@@ -15,5 +15,4 @@
 
 .sidebarright {
   grid-area: sidebarright;
-  display: none;
 }

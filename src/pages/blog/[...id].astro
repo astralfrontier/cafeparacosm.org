@@ -1,0 +1,25 @@
+---
+import { render } from "astro:content";
+import blog, { byId } from "@/blog-utils.ts";
+import Top from "@/layouts/Top.astro"
+
+export async function getStaticPaths() {
+  return blog.map(entry => ({
+    params: { id: entry.id }
+  }))
+}
+
+const { id } = Astro.params;
+
+const entry = await byId(id);
+const {Content} = await render(entry);
+---
+<Top title={entry.data.name} expandBlogPosts={true}>
+	<h1>{entry.data.name}</h1>
+  <p>
+    <small>
+      <em>Posted on {entry.data.date.toDateString()}</em>
+    </small>
+  </p>
+  <Content />
+</Top>

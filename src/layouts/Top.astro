@@ -5,9 +5,10 @@ import styles from "./Top.module.scss";
 
 interface Props {
   title: string;
+  expandBlogPosts?: boolean;
 }
 
-const { title } = Astro.props;
+const { title, expandBlogPosts = true } = Astro.props;
 ---
 <html lang="en">
   <head>
@@ -19,13 +20,10 @@ const { title } = Astro.props;
   <body>
     <main class={`container ${styles.main}`}>
       <div class={styles.sidebarleft}>
-        <SidebarLeft />
+        <SidebarLeft expandBlogPosts={expandBlogPosts} />
       </div>
       <div class={styles.content}>
         <slot />
-      </div>
-      <div class={styles.sidebarright}>
-        sidebar
       </div>
     </main>
   </body>

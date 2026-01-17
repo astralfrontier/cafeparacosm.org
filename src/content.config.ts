@@ -2,6 +2,15 @@ import { defineCollection } from 'astro:content';
 import { file, glob } from 'astro/loaders';
 import { z } from 'astro/zod';
 
+const blog = defineCollection({
+  loader: glob({pattern: ["**/*.(md|mdx)", "!**/_*.(md|mdx)"], base: "./src/blog"}),
+  schema: ({image}) => z.object({
+    name: z.string(),
+    draft: z.boolean().optional(),
+    date: z.date()
+  })
+})
+
 const games = defineCollection({
   loader: glob({pattern: ["**/*.(md|mdx)", "!**/_*.(md|mdx)"], base: "./src/games"}),
   schema: ({ image }) => z.object({
@@ -22,4 +31,4 @@ const gurpsMashup = defineCollection({
   })
 })
 
-export const collections = { games, gurpsMashup };
+export const collections = { blog, games, gurpsMashup };
