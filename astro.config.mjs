@@ -12,8 +12,14 @@ import react from '@astrojs/react';
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [astroBrokenLinksChecker({
-    checkExternalLinks: false,
-    throwError: true
-  }), purgecss(), playformCompress(), compressor(), mdx(), react()],
+  integrations: [
+    mdx(), react(),
+    astroBrokenLinksChecker({
+      checkExternalLinks: false,
+      throwError: true
+    }),
+    purgecss(),
+    playformCompress(),
+    compressor()
+  ],
 });
