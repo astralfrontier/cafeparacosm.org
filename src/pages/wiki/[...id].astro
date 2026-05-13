@@ -1,0 +1,20 @@
+---
+import { render } from "astro:content";
+import wiki, { byId } from "@/wiki-utils.ts";
+import Top from "@/layouts/Top.astro"
+
+export async function getStaticPaths() {
+  return wiki.map(entry => ({
+    params: { id: entry.id }
+  }))
+}
+
+const { id } = Astro.params;
+
+const entry = await byId(id);
+const {Content} = await render(entry);
+---
+<Top title={entry.data.name}>
+	<h1>{entry.data.name}</h1>
+  <Content />
+</Top>

@@ -2,7 +2,8 @@
 import { getCollection } from "astro:content"
 import { sortBy, take, toLower } from "ramda";
 
-import blog from "@/blog-utils.ts"
+import blog from "@/blog-utils.ts";
+import { homepages } from "@/wiki-utils.ts";
 import BlogEntry from "./BlogEntry.astro";
 
 interface Props {
@@ -37,6 +38,12 @@ const games = sortByNameCaseInsensitive(await getCollection("games"));
       <></>
       }
       </>
+      }
+      {homepages.map(entry => 
+        <li>
+          <a href={`/wiki/${entry.id}`}>{entry.data.name}</a>
+        </li>
+      )
       }
     </ul>
   </nav>

@@ -7,8 +7,8 @@ import compressor from 'astro-compressor';
 import purgecss from 'astro-purgecss';
 
 import mdx from '@astrojs/mdx';
-
 import react from '@astrojs/react';
+import yaml from '@rollup/plugin-yaml';
 
 // https://astro.build/config
 export default defineConfig({
@@ -22,4 +22,7 @@ export default defineConfig({
     playformCompress(),
     compressor()
   ],
+  vite: {
+    plugins: [yaml()]
+  }
 });
