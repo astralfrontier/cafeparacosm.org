@@ -20,6 +20,9 @@ const games = sortByNameCaseInsensitive(await getCollection("games"));
   <nav>
     <ul>
       <li><a href="/">Home</a></li>
+    </ul>
+    <strong>Games</strong>
+    <ul>
       {games.map(game => 
         <li>
           <a href={`/games/${game.id}`}>
@@ -27,8 +30,11 @@ const games = sortByNameCaseInsensitive(await getCollection("games"));
           </a>
         </li>
       )}
+      </ul>
       {blog.length > 0 &&
       <>
+      <strong>Blog</strong>
+      <ul>
       <li><a href="/blog/1">Blog</a></li>
       {expandBlogPosts ?
         take(10, blog).map(
@@ -37,8 +43,12 @@ const games = sortByNameCaseInsensitive(await getCollection("games"));
       :
       <></>
       }
+      </ul>
       </>
       }
+      
+      {homepages.length > 0 && <strong>Wiki</strong>}
+      <ul>
       {homepages.map(entry => 
         <li>
           <a href={`/wiki/${entry.id}`}>{entry.data.name}</a>

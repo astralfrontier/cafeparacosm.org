@@ -2,8 +2,9 @@ import { getCollection, getEntry } from "astro:content";
 
 const wiki = await getCollection("wiki");
 
-// TODO: sort by name?
-export const homepages = wiki.filter(entry => entry.data.home);
+export const homepages = wiki
+  .filter(entry => entry.data.homepage)
+  .sort((a, b) => a.data.name.localeCompare(b.data.name, 'en'));
 
 export async function byId(id: string) {
   const entry = await getEntry('wiki', id);

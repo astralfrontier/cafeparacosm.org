@@ -35,7 +35,7 @@ const wiki = defineCollection({
   loader: glob({pattern: ["**/*.(md|mdx)", "!**/_*.(md|mdx)"], base: "./src/wiki"}),
   schema: ({image}) => z.object({
     name: z.string(),
-    home: z.boolean().default(false)
+    homepage: z.boolean().default(false)
   })
 })
 

@@ -1,0 +1,34 @@
+---
+import { getCollection } from 'astro:content';
+import { getEntry } from 'astro:content';
+
+interface Props {
+  id?: string;
+  name?: string;
+}
+
+const { id, name } = Astro.props;
+
+let entry = undefined;
+let key = undefined;
+if (id) {
+  key = id;
+  entry = await getEntry('wiki', id);
+} else if (name) {
+  const lc = name.toLocaleLowerCase();
+  const entries = await getCollection('wiki', ({data}) => data.name.toLocaleLowerCase() == lc);
+  if (entries.length == 1) {
+    key = name;
+    entry = entries[0];
+  } else if (entries.length > 1) {
+    throw new Error(`Too many matches for wiki name: ${name}`);
+  }
+} else {
+  throw new Error(`Wiki component requires either id or name`);
+}
+
+if (!entry) {
+    throw new Error(`Wiki entry not found: ${key}`);
+}
+---
+<a href={`/wiki/${entry.id}/`}>{entry.data.name}</a>
