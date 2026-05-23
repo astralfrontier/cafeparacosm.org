@@ -2,15 +2,19 @@
 import SidebarLeft from "@/components/SidebarLeft.astro";
 import "./Top.scss";
 import styles from "./Top.module.scss";
+import type { ACTION_ERROR_CODES, ACTION_QUERY_PARAMS } from "astro:actions";
 
 interface Props {
   title: string;
   expandBlogPosts?: boolean;
+  colorScheme?: 'dark' | 'light';
 }
 
-const { title, expandBlogPosts = true } = Astro.props;
+const { title, expandBlogPosts = true, colorScheme } = Astro.props;
+
+const colorSchemeProps = colorScheme ? { "data-theme": colorScheme } : {};
 ---
-<html lang="en">
+<html lang="en" {...colorSchemeProps}>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
