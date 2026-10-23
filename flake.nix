@@ -12,7 +12,7 @@
         packagename = "cafeparacosm.org";
         pkgs = nixpkgs.legacyPackages.${system};
         builddeps = with pkgs; [
-          nodejs_22
+          nodejs_24
         ];
       in
       {
@@ -31,7 +31,7 @@
         };
         devShell = pkgs.mkShell {
           name = packagename;
-          packages = builddeps;
+          packages = builddeps ++ [ pkgs.vscodium ];
         };
       }
     );

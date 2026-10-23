@@ -2,7 +2,6 @@
 import SidebarLeft from "@/components/SidebarLeft.astro";
 import "./Top.scss";
 import styles from "./Top.module.scss";
-import type { ACTION_ERROR_CODES, ACTION_QUERY_PARAMS } from "astro:actions";
 
 interface Props {
   title: string;
@@ -10,7 +9,7 @@ interface Props {
   colorScheme?: 'dark' | 'light';
 }
 
-const { title, expandBlogPosts = true, colorScheme } = Astro.props;
+const { title, expandBlogPosts = true, colorScheme = "light" } = Astro.props;
 
 const colorSchemeProps = colorScheme ? { "data-theme": colorScheme } : {};
 ---
