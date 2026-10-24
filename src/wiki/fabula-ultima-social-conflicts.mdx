@@ -3,7 +3,15 @@ name: Fabula Ultima Social Conflicts
 homepage: true
 ---
 
+> "...it did not take him long to learn the various gambits and ripostes of this non-physical, but nevertheless no-holds-barred, political mayhem."
+> -- E.E. "Doc" Smith, "First Lensman"
+
 A subsystem for doing more detailed social conflicts in Fabula Ultima.
+
+# Damage and Healing
+
+Damage is taken against a character's HP. These aren't properly wounds or injuries, but may still be treated as stressful.
+Healing works as normal.
 
 ## Affinities
 
@@ -34,27 +42,61 @@ The GM may assign social Affinities to NPCs as appropriate.
 There is no guarantee that any NPC will have only one Vulnerability or Resistance, for example.
 Certain NPCs - such as emotionless robots - may be Immune to things like Pathos!
 
-## Social Weapons and Armor
+# Social Weapons and Armor
 
-When entering a social conflict, characters choose to arm themselves with two social weapons, taken from the list below.
+When entering a social conflict, characters choose to arm themselves with social weapons, taken from the list below.
+Characters may use the **Equipment** action to change tactics.
+Equipping a social weapon does not mean a character isn't still carrying their normal equipment, of course.
 
 Social attacks target a Defense score based either on INS or WLP, depending on whether it goes against a character's reason or ego.
-If the attack involves a Bond the character has, they can add the strength of that Bond to their Defense.
+If the attack involves a Bond the character has, they defend with a +1.
 NPCs may add +1 to their defense if one or more Traits would let them resist an attack.
-
-Example: Tana the mage apprentice wants to denounce a Church leader! She's appealing to her audience's emotions,
-using a social weapon like **Impassioned Plea** that targets WLP.
-Later, the clergyman counterattacks with a sneering dismissal, but Tana has built a 2-strength Bond with the community
-that lets her resist with a +2 to her own WLP.
 
 Sample Social Weapons:
 
-* **Fiery Rhetoric**: "That man is a liar! I can prove it!" [INS + WLP]+1 vs. WLP, [HR+4] Pathos.
-* **Impassioned Plea**: "Please! You have to believe us!" [WLP + WLP] vs. WLP, [HR+6] Pathos.
-* **Methodical Indictment**: "Let me show you the evidence." [INS + INS] vs. INS, [HR+6] Logos.
+* **Bellowing Browbeat**: [MIG + WLP]+1 vs. INS, [HR+4] Kairos. Your presence and voice speak for you, interrupting or dominating the conversation at key moments.
+* **Call for Cooperation**: [INS + INS] vs. WLP, [HR+6] Ethos. You work to find common ground with your opponent.
+* **Cutting Brevity**: [DEX + WLP] vs. WLP, [HR+6] Kairos. A few key words can undercut minutes of rhetoric, but your timing must be perfect.
+* **Defensive Dissection**: [WLP + WLP] vs. INS, [HR+6] Logos. You tear apart your opponent's arguments and dismantle their rhetoric, revealing their weakness.
+* **Fiery Rhetoric**: [INS + WLP]+1 vs. WLP, [HR+4] Pathos. You pound the table, making powerful invocations and assertions with the confidence of a preacher.
+* **Impassioned Appeal**: [WLP + WLP] vs. WLP, [HR+6] Pathos. You bare your soul to your audience, asking for their understanding of your plight.
+* **Methodical Indictment**: [INS + INS] vs. WLP, [HR+6] Logos. You dismantle your opponent with precise arguments and damning revelations.
+* **Patriotic Plea**: [WLP + WLP] vs. WLP, [HR+6] Ethos. You invite your target and an audience to consider their loyalties.
+* **Showy Performance**: [DEX + INS] vs. INS, [HR+6] Pathos. Your flourishes, gestures, posture, and movement contribute just as much as your words.
+* **Verbal Judo**: [INS + WLP]+1 vs. INS, [HR+4] Kairos. You're able to turn your opponent's words against them, then press into the opening you create.
 
 ## Rare Social Weapons
 
 It's possible for a character to come across something that specially equips them for a later social engagement.
-For example, a hero might come across some **Damning Documents** that implicate a clergyman,
-with a special Quality that increases damage to that individual.
+Example:
+
+- **Damning Documents**: [INS + INS] vs. WLP, [HR+8] Logos. Evidence of wrongdoing by someone in authority. Does 5 extra damage if you are targeting that individual.
+- **Signet Ring**: [WLP + WLP] vs. INS, [HR+8] Ethos. A token from someone in power, which you can present as evidence you act with their authority.
+
+# Actions in Combat
+
+Most combat actions work as expected.
+You **attack** with a social weapon to go on the rhetorical offensive.
+You can **hinder** to undercut someone's position or shake them up.
+You can **guard** to stand firm against an enemy's attacks, or speak up on someone else's behalf.
+
+Actually using offensive spells or real weapons moves the conflict to a physical conflict.
+The use of non-offensive spells or inventory items may be noticed, and could change the direction of the conflict at the GM's discretion.
+
+## Class Skills
+
+Try to charitably interpret class skills in the context of social conflict wherever possible.
+For example, a Weaponmaster might use Bone Crusher to inflict status effects and damage Mind Points, just verbally.
+The player must still describe the maneuver! 
+
+If a class skill, item quality, etc. would interact with the traits of a social weapon,
+such as whether it's a Melee vs. Ranged weapon, the GM should be permissive in allowing the rule to proceed.
+For example, you might allow a Sharpshooter's Crossfire to serve as a quick counter-comment to sarcastically undercut a verbal attack.
+
+# TODO
+
+Remaining work items for this project:
+
+- Supporting 1H vs. 2H weapons? Shields?
+- 1 more Logos and 1 more Ethos weapon
+- Adversary design - how do you create bosses and other enemies for social conflict?
